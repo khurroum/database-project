@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-block: 15px;
+}
+
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("images/pic.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.deliver {
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 14px;
+}
+
+.bangladesh {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.navsearch {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: green;
+  height: 40px;
+  width: 600px;
+  border-radius: 4px;
+}
+
+.searchselect {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.searchinput {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.searchicon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.navsearch:hover {
+  border: 2px solid orange;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+.navlist {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.cart i {
+  font-size: 30px;
+}
+
+.cart {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.paneloption p {
+  display: inline;
+  margin-left: 10px;
+}
+
+.paneloption {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.paneldeals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.herosection {
+  background-image: url("images/bgpic.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.heromassage {
+  background-color: #fff;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.heromassage a {
+  color: #007185;
+}
+
+.shopsection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background-color: #25826f;
+  padding-block: 40px;
+}
+
+.box {
+  width: 23%;
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 25px;
+  width: 400px;
+}
+
+.boximage {
+  margin-top: 15px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.boximage img {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 20px;
+}
+.boximage img {
+  object-fit: cover;
+}
+
+.boxcontent {
+  padding: 2rem;
+}
+.boxcontent button {
+  margin-top: 1rem;
+  color: #007185;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  cursor: pointer;
+}
