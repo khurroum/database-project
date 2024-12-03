@@ -84,7 +84,7 @@ $myData = [
           <p>Sell</p>
         </div>
 
-        <div class="paneldeals">Shop deals in Electronics</div>
+        <div class="paneldeals">Shop deals in Electronics fdgdf</div>
       </div>
     </header>
 
